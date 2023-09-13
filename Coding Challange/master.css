@@ -1,0 +1,90 @@
+/* impostazione tipo sizing box e font per l'intera pagina */
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+/* settaggio sfondo */
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+/* box contenente tutto il corpo principale */
+.box{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    padding: 125px;
+    border: 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: auto;
+}
+
+/* formattazione logo & co. */
+.lim{
+    text-align: center;
+    color: rgb(0, 255, 0);
+}
+
+h1{
+    margin: 5px;
+}
+
+.logo{
+    width: 25%;
+    height: 25%;
+}
+
+/* formattazione barra di navigazione e funzioni */
+.functionbar{
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+    width: auto;
+    padding: 1%;
+    margin-top: 1px;
+}
+
+input{
+    font-weight: bold;
+}
+
+/* formattazione parte di selezione con relative info dei monopattini per maranza */
+.selectmaranzamobile{
+    color: white;
+}
+
+.arrow::before{
+    content: "\2192";
+}
+
+#batterylevel1 {
+    background-color: orange;
+    width: 35%;
+    height: 30px;
+    border-radius:5px;
+}
+
+#batterylevel2 {
+    background-color: rgb(11, 221, 11);
+    width: 60%;
+    height: 30px;
+    border-radius:5px;
+}
+
+#batterylevel3 {
+    background-color: red;
+    width: 15%;
+    height: 30px;
+    border-radius:5px;
+}
+
+h2{
+    margin-bottom: 0px;
+}
+
+p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
